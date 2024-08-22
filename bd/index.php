@@ -6,7 +6,7 @@ header("Content-Type: application/json; charset=UTF-8");
 header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
 
 // Conecta a la base de datos  con usuario, contraseña y nombre de la BD
-$servidor = "sql310.infinityfree.com"; $usuario = "if0_35841851"; $contrasenia = "x76Euip8F16HG"; $nombreBaseDatos = "empleados";
+$servidor = "sql310.infinityfree.com"; $usuario = "if0_35841851"; $contrasenia = "x76Euip8F16HG"; $nombreBaseDatos = "if0_35841851_cur";
 $conexionBD = new mysqli($servidor, $usuario, $contrasenia, $nombreBaseDatos);
 
 
