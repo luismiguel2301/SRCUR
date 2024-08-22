@@ -16,7 +16,7 @@ export default function crear() {
             }
 
             if(datos.nombre!=="" && datos.apellido!==""){
-                fetch(url+'bd/?insertar=1',{
+                fetch(url+'bd/index.php?insertar=1',{
                     method:"POST",
                     body:JSON.stringify(datos)
                 })
