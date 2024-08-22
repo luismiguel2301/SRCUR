@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="title"></title>
+    <link rel="stylesheet" href="./inc/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./inc/css/estilos.css" />
+    <link rel="stylesheet" href="./inc/css/sweetalert2.min.css" />
+    <link rel="icon" href="./inc/img/logo.png" />
+    <link rel="stylesheet" href="./inc/icon/font/bootstrap-icons.css" />
+    <script src="./inc/js/jquery.js"></script>
+  </head>
+  <body>
+    <nav class="navbar sticky-top navbar-expand-lg bg-color">
+        <div class="container">
+                <!--logo-->
+              <a class="navbar-brand" href="">
+                <img src="./inc/img/logo.png" alt="logo" style="width: 80px;height: 100px;" >
+              </a>
+              <!--boton hambur-->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!--se relaciona con el boton hambur-->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <!--opciones del menu-->
+                <ul class="navbar-nav ms-sm-auto">
+    
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#" id="inicio">Inicio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link active" href="#" id="crear">Crear</a>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link active" href="#" id="editar">Editar</a>
+                  </li>
+   
+                </ul>
+            </div>
+        </div>
+        
+    </nav>
+
+    <div id="app" class="container"></div>
+
+    <script src="./main.js" type="module"></script>
+    <script src="./inc/js/sweetalert2.all.min.js"></script>
+    <script src="./inc/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
