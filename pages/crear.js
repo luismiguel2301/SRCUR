@@ -1,6 +1,6 @@
 export default function crear() {
 
-    let url = 'http://192.168.1.254/proyecto/';
+    let url = 'https://luismiguel2301.github.io/SRCUR/';
 
     $(document).ready(function(){
 
